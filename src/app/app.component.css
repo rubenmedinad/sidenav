@@ -1,0 +1,19 @@
+.example-spacer {
+  flex: 1 1 auto;
+}
+.mat-icon-no-color {
+  background-color: transparent;
+  color: white;
+  border: none;
+}
+.container {
+  height: 100%;
+}
+
+.sidenav {
+  width: 200px;
+}
+
+.content {
+  padding: 24px;
+}

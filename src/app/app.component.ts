@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { RutasService } from './rutas.service';
 
 @Component({
   selector: 'app-root',
@@ -7,4 +8,9 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'Sidebar';
+  menuItems: any[];
+
+  constructor(private menuService: RutasService) {
+    this.menuItems = menuService.menuItems;
+  }
 }
